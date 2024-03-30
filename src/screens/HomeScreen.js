@@ -1,4 +1,3 @@
-// src/screens/HomeScreen.js
 import React, { useState } from 'react';
 import { Button, StyleSheet, View, Text, ScrollView } from 'react-native';
 import ToDoList from '../components/ToDoList';
@@ -28,7 +27,7 @@ const HomeScreen = ({ navigation }) => {
                     <Button
                         title="Go to About"
                         onPress={() => navigation.navigate('About')}
-                        color="white" // Adjust based on your app theme
+                        color="white"
                     />
                 </View>
             </ScrollView>
